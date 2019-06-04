@@ -1,0 +1,19 @@
+{
+    "serverPort": 80,
+    "storage": {
+        "path": "/"
+    },
+    "api": {
+        "host": "http://192.168.16.181",
+        "appkey": "4f860649600a47508379639dba82327d",
+        "appsecret": "f3b58f6b935b4acd9d9e795864ad10d4"
+    },
+    "gridfs": {
+        "connection": "mongodb://192.168.16.181:27017/picture"
+    },
+    "cryptoKey": "a3f07d535e744f4a8e88fc8de92981c5",
+    "cryptoExpired": {
+        "enable": true,
+        "times": 7200000
+    }
+}

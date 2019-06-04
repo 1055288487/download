@@ -1,0 +1,30 @@
+{
+  "name": "filedownserver",
+  "version": "2.0.0",
+  "description": "nodejs",
+  "main": "./build/index.js",
+  "scripts": {
+    "start": "DEBUG=*:error node --trace-warnings ./build/index.js",
+    "dev": "DEBUG=* node  --trace-warnings ./build/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "czq",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "cryptojs": "^2.5.3",
+    "debug": "^2.6.8",
+    "memory-cache": "^0.2.0",
+    "gridfs-stream": "^1.1.1",
+    "mongoose": "^5.2.9"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/node": "^7.0.32",
+    "@types/gridfs-stream": "^0.5.30",
+    "@types/mongoose": "^5.2.6"
+  }
+}
